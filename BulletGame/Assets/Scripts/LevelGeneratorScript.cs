@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class LevelGeneratorScript : MonoBehaviour
 {
-    [SerializeField] float distanceBetweenObstacles = 7f;
-    [SerializeField] List<GameObject> obstacles;
-    [SerializeField] GameObject player;
-    [SerializeField] GameObject door;
+    [SerializeField] private float distanceBetweenObstacles = 7f;
+    [SerializeField] private List<GameObject> obstacles;
+    [SerializeField] private GameObject player;
+    [SerializeField] private GameObject door;
 
     private float position = -10;
 

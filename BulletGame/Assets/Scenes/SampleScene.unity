@@ -456,7 +456,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2198100594675529356, guid: c6ed78511c3d2ef49944bfc7f3170b88, type: 3}
       propertyPath: m_Name
-      value: LoseUi (1)
+      value: LoseUi
       objectReference: {fileID: 0}
     - target: {fileID: 2198100594675529356, guid: c6ed78511c3d2ef49944bfc7f3170b88, type: 3}
       propertyPath: m_IsActive

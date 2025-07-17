@@ -5,10 +5,9 @@ public class CameraPositionScript : MonoBehaviour
     [SerializeField] private float offsetY;
     [SerializeField] private float offsetZ;
     [SerializeField] private string goalTag;
-
-    public bool GameMode=true;
-
     private GameObject goal;
+
+    public bool GameMode = true;
 
     private void Update()
     {
@@ -25,7 +24,6 @@ public class CameraPositionScript : MonoBehaviour
             }
         }
     }
-
     private void tryFindGoal()
     {
         goal=GameObject.FindGameObjectWithTag(goalTag);

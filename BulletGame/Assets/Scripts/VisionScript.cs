@@ -30,9 +30,6 @@ public class VisionScript : MonoBehaviour
     {
         EnemyScript.OnEnemyDestroyed -= HandleEnemyDestroyed;
     }
-
-
-
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Enemy") && other.TryGetComponent(out EnemyScript enemy))

@@ -2,10 +2,10 @@ using UnityEngine;
 
 public class BulletBehaviorScript : MonoBehaviour
 {
-    [SerializeField] GameObject boomPrefab;
-    [SerializeField] float speed=1f;
-
+    [SerializeField] private GameObject boomPrefab;
+    [SerializeField] private  float speed=1f;
     private bool ready=false;
+
     public void setReady(bool value)
     {
         ready = value;
@@ -32,5 +32,4 @@ public class BulletBehaviorScript : MonoBehaviour
     {
         transform.position += new Vector3(0, 0, speed * Time.deltaTime);
     }
-
 }
